@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Payment Page</title>
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+           body{
+                background-image: url("background.jpg");
+                
+            }
+            .cvv{
+              webkit-border-radius: 5px;
+moz-border-radius: 5px;
+border-radius: 5px;
+            }
+      </style>
+    </head>
+    <body>
+        <div class="container">
+            <table>
+        <tr>
+            <td>
+                <img src="workshop logo.png" width ="130" height="130"><br>
+            </td>
+            <td>
+                <p style="font-size:300%;">Luxury Buses</p>
+            </td>
+        </tr>
+    </table>
+            
+            
+             <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="http://localhost:8080/bootstrap/login.html">Home</a></li>
+      <li class="active"><a href="http://localhost:8080/bootstrap/index.html">Book a ticket</a></li>
+      <li><a href="http://localhost:8080/bootstrap/gallery.html">Gallery</a></li> 
+          
+    </ul>
+  </div>
+</nav>
+    
+   
+  <br> 
+            
+            
+  <h3 align="center">Enter your card details:</h3>
+            <table align="center">
+                 <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+            <tr>
+                <td>Card Number:</td>
+                <td><div class="form-group">
+      <label class="control-label col-sm-2" for="cardno"></label>
+      <div class="col-sm-10">
+        <input type="cardno" class="form-control" id="cardno" placeholder="Enter card number">
+      </div>
+                    </div></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                 
+            </tr>
+            <tr>
+                <td>Card Holder Name:</td>
+                <td><div class="form-group">
+      <label class="control-label col-sm-2" for="cardname"></label>
+      <div class="col-sm-10">
+        <input type="cardname" class="form-control" id="cardname" placeholder="Enter card holder name">
+      </div>
+                    </div></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                 
+            </tr>
+            <tr>
+                 <td>CVV:</td>
+                <td>
+                    <div class="form-group">
+      <label class="control-label col-sm-2" for="cvv"></label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="cardname" placeholder="Enter CVV number">
+      </div>
+                </td>
+                    </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr>
+           
+                <td>
+                
+                    Month:<select class="selectpicker">
+                <option value="jan">Jan</option>
+                 <option value="feb">Feb</option>
+                  <option value="mar">Mar</option>
+                   <option value="apr">Apr</option>
+                    <option value="may">May</option>
+                     <option value="jun">Jun</option>
+                      <option value="jul">Jul</option>
+                       <option value="aug">Aug</option>
+                        <option value="sep">Sep</option>
+                         <option value="oct">Oct</option>
+                          <option value="nov">Nov</option>
+                           <option value="dec">Dec</option>
+                           
+            </select>
+                </td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     Year:<select>
+                <option value="2016">2016</option>
+                 <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                   <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                     <option value="2021">2021</option>
+                      <option value="2022">2022</option>
+                      
+            </select>
+                </td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td> <form action="http://localhost:8080/bootstrap/Success%20Payment.html">
+                    
+                    <button type="submit" class="btn btn-success">Make a payment</button></form></td>
+                    <td></td>
+                    <td> <form action="http://localhost:8080/bootstrap/index.html">
+                        
+                            <button type="submit" class="btn btn-warning">Cancel payment</button></form></td>
+            </tr>
+            
+            
+            
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+      </script>
+      <style>
+           body{
+                background-image: url("background.jpg");
+                
+            }
+            #from{
+                 webkit-border-radius: 5px;
+moz-border-radius: 5px;
+border-radius: 5px;
+height: 30px
+
+            }
+            #to{
+                 webkit-border-radius: 5px;
+moz-border-radius: 5px;
+border-radius: 5px;
+height: 30px
+
+            }
+      </style>
+</head>
+<body>
+
+<div class="container">
+    <table>
+        <tr>
+            <td>
+                <img src="workshop logo.png" width ="130" height="130"><br>
+            </td>
+            <td>
+                <p style="font-size:300%;">Luxury Buses</p>
+            </td>
+        </tr>
+    </table>
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="http://localhost:8080/bootstrap/login.html">Home</a></li>
+      <li class="active"><a href="http://localhost:8080/bootstrap/index.html">Book a ticket</a></li>
+      <li><a href="http://localhost:8080/bootstrap/gallery.html">Gallery</a></li> 
+      
+    </ul>
+  </div>
+</nav>
+    
+   
+  <br> </br>
+            
+</div>
+    <div class="container">
+       
+   
+    
+    <div class="panel-group" align="center">
+    <div class="panel panel-default" style="width:750px">
+        <div class="panel-heading" style="font-size: 150%">Enter your arrival,destination places and date of your journey</div>
+      <div class="panel-body" style="padding-right :120px">
+          
+          <table>
+            <tr>
+                <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp From </td>
+                
+                <td style=" padding-left: 55px">
+        <select id="from" class="dropdown-toggle" data-toggle="dropdown">
+            <option value="none">Enter the arrival city</option>
+            <option value="kansas">Kansas City</option>
+            <option value="san jose">Saint Joseph</option>
+            <option value="Missippi">Mississippi</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Austin">Austin</option>
+            <option value="LosVegas">Los Vegas</option>
+         </select>
+      <br></td>
+               
+            </tr>
+            <tr id="empty">
+                <td><br>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp To </td>
+                 
+                <td style=" padding-left: 55px">
+                    <select id="to">
+            <option value="none">Enter destination city</option>
+            <option value="LosVegas">Los Vegas</option>
+            <option value="Austin">Austin</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Missippi">Mississippi</option>
+            <option value="san jose">Saint Joseph</option>
+            <option value="kansas">Kansas City</option>
+           
+            
+         </select><br></td>
+            </tr>
+             <tr id="empty1">
+                <td><br>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Date of journey </td>
+                 
+                <td><div class="form-group">
+      <label class="control-label col-sm-2" for="date"></label>
+      <div class="col-sm-10">
+        <input type="date" class="form-control" id="date" placeholder="Enter date of journey">
+      </div>
+                    </div><br></td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td> &nbsp &nbsp</td>
+                <td> &nbsp &nbsp &nbsp <form action="http://localhost:8080/bootstrap/first.html">
+                        <button type="submit" class="btn btn-success">Check availability</button></form></td>
+                        
+            </tr>
+        </table>
+      </div>
+    </div>
+
+     </div>
+    
+   
+</body>
+</html>
+
